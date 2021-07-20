@@ -6,3 +6,11 @@ header{
 header .row{
     flex-wrap: nowrap;
 }
+
+.hero{
+    background-color: #1abc9c;
+}
+
+.container_img img{
+    width: 100%;
+}
