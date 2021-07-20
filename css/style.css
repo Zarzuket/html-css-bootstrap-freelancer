@@ -18,6 +18,20 @@ header .row{
 }
 
 .portfolio,
-.about{
+.about,
+.contact{
     margin-top: 50px;
+}
+
+footer{
+    background-color: #3a546d;
+}
+
+.green{
+    color: green;
+}
+
+.footer_bot{
+    background-color: #2c3e50;
+
 }
