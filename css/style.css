@@ -7,7 +7,8 @@ header .row{
     flex-wrap: nowrap;
 }
 
-.hero{
+.hero,
+.about{
     background-color: #1abc9c;
 }
 
@@ -16,6 +17,7 @@ header .row{
     padding: 5px 5px;
 }
 
-.portfolio{
+.portfolio,
+.about{
     margin-top: 50px;
 }
