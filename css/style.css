@@ -4,8 +4,14 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    height: 50px;
+    height: 82px;
     line-height: 50px;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link{
+    color: white;
 }
 
 header .row{
@@ -35,7 +41,7 @@ header a{
 
 section{
     margin-top: 20px;
-    padding: 20px 0;
+    padding: 80px 0;
 }
 
 
@@ -59,7 +65,7 @@ section{
 }
 
 #hero{
-    margin-top: 50px;
+    margin-top: 82px;
     color: white;
 }    
 
@@ -71,12 +77,40 @@ section{
     background-color: #1abc9c;
 }    
 
+.linea{
+    border: 1px solid;
+    width: 50px;
+    margin: 0 5px;
 
+}
+
+.star_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container_img img{
     width: 100%;
     padding: 5px 5px;
+    position: relative;
 }    
+
+.container_img:hover .container_img::after{
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    font-size: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(#1abc9c);
+}
 
 /* footer */
 
@@ -85,12 +119,29 @@ footer{
     color: white;
 }
 
-
+.flex_end{
+    justify-content: flex-end;
+}
 
 .footer_bot{
     background-color: #2c3e50;
     color: white;
     
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.circle a{
+    color: white;
 }
 
 .green{
